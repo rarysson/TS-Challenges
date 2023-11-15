@@ -8,7 +8,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00004 - pick
 	- [x] 00007 - readonly
 	- [x] 00011 - tuple to object
-	- [ ] 00014 - first of array
+	- [x] 00014 - first of array
 	- [ ] 00018 - length of tuple
 	- [ ] 00043 - exclude
 	- [ ] 00189 - awaited
