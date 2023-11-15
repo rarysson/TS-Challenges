@@ -31,7 +31,9 @@
 
 /* _____________ Your Code Here _____________ */
 
-type MyPick<T, K> = any
+type MyPick<Type, Key extends keyof Type> = {
+  [Property in keyof Type as Property extends Key ? Property : never]: Type[Property]
+}
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
