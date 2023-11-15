@@ -22,7 +22,7 @@
 
 /* _____________ Your Code Here _____________ */
 
-type Length<T> = any
+type Length<Type extends readonly any[]> = Type['length']
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
