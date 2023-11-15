@@ -10,7 +10,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00011 - tuple to object
 	- [x] 00014 - first of array
 	- [x] 00018 - length of tuple
-	- [ ] 00043 - exclude
+	- [x] 00043 - exclude
 	- [ ] 00189 - awaited
 	- [ ] 00268 - if
 	- [ ] 00533 - concat
