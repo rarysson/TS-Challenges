@@ -18,7 +18,7 @@
 
 /* _____________ Your Code Here _____________ */
 
-type Push<T, U> = any
+type Push<T, U> = T extends any[] ? [...T, U] : never
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'
