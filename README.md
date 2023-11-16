@@ -19,7 +19,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 03060 - unshift
 	- [x] 03312 - parameters
 - [ ] Medium
-	- [ ] 00002 - get-return-type
+	- [x] 00002 - get-return-type
 	- [ ] 00003 - omit
 	- [ ] 00008 - readonly-2
 	- [ ] 00009 - deep-readonly
