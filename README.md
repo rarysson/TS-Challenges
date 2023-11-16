@@ -24,7 +24,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00008 - readonly-2
 	- [x] 00009 - deep-readonly
 	- [x] 00010 - tuple-to-union
-	- [ ] 00012 - chainable-options
+	- [x] 00012 - chainable-options
 	- [ ] 00015 - last-of-array
 	- [ ] 00016 - pop
 	- [ ] 00020 - promise-all
