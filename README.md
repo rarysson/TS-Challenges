@@ -23,7 +23,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00003 - omit
 	- [x] 00008 - readonly-2
 	- [x] 00009 - deep-readonly
-	- [ ] 00010 - tuple-to-union
+	- [x] 00010 - tuple-to-union
 	- [ ] 00012 - chainable-options
 	- [ ] 00015 - last-of-array
 	- [ ] 00016 - pop
