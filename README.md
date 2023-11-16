@@ -13,7 +13,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00043 - exclude
 	- [x] 00189 - awaited
 	- [x] 00268 - if
-	- [ ] 00533 - concat
+	- [x] 00533 - concat
 	- [ ] 00898 - includes
 	- [ ] 03057 - push
 	- [ ] 03060 - unshift
