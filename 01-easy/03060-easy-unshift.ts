@@ -18,7 +18,7 @@
 
 /* _____________ Your Code Here _____________ */
 
-type Unshift<T, U> = any
+type Unshift<T, U> = T extends any[] ? [U, ...T] : never
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'

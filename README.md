@@ -16,7 +16,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00533 - concat
 	- [x] 00898 - includes
 	- [x] 03057 - push
-	- [ ] 03060 - unshift
+	- [x] 03060 - unshift
 	- [ ] 03312 - parameters
 - [ ] Medium
 	- [ ] 00002 - get-return-type
