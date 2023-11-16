@@ -18,7 +18,18 @@
 
 /* _____________ Your Code Here _____________ */
 
-type Includes<T extends readonly any[], U> = any
+// Why it works? This is why: https://github.com/Microsoft/TypeScript/issues/27024#issuecomment-510924206
+type IsEqual<T, U> =
+(<G>() => G extends T ? true : false) extends
+(<G>() => G extends U ? true : false)
+  ? true
+  : false;
+
+type Includes<Type extends readonly any[], Value> = Type extends readonly [infer Head, ...infer Tail]
+  ? IsEqual<Head, Value> extends true
+    ? true
+    : Includes<Tail, Value>
+  : false
 
 /* _____________ Test Cases _____________ */
 import type { Equal, Expect } from '@type-challenges/utils'

@@ -14,7 +14,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00189 - awaited
 	- [x] 00268 - if
 	- [x] 00533 - concat
-	- [ ] 00898 - includes
+	- [x] 00898 - includes
 	- [ ] 03057 - push
 	- [ ] 03060 - unshift
 	- [ ] 03312 - parameters
