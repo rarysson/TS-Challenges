@@ -4,7 +4,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 
 - [x] Warm up
 	- [x] 00013 - hello world
-- [ ] Easy
+- [x] Easy
 	- [x] 00004 - pick
 	- [x] 00007 - readonly
 	- [x] 00011 - tuple to object
@@ -17,7 +17,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00898 - includes
 	- [x] 03057 - push
 	- [x] 03060 - unshift
-	- [ ] 03312 - parameters
+	- [x] 03312 - parameters
 - [ ] Medium
 	- [ ] 00002 - get-return-type
 	- [ ] 00003 - omit
