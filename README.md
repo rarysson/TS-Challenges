@@ -31,7 +31,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00062 - Type lookup
 	- [x] 00106 - Trim left
 	- [x] 00108 - Trim
-	- [ ] 00110 - Capitalize
+	- [x] 00110 - Capitalize
 	- [ ] 00116 - Replace
 	- [ ] 00119 - Replaceall
 	- [ ] 00191 - Append argument
