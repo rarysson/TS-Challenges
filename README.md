@@ -26,7 +26,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00010 - Tuple to union
 	- [x] 00012 - Chainable options
 	- [x] 00015 - Last of array
-	- [ ] 00016 - Pop
+	- [x] 00016 - Pop
 	- [ ] 00020 - Promise all
 	- [ ] 00062 - Type lookup
 	- [ ] 00106 - Trim left
