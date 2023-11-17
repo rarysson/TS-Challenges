@@ -29,7 +29,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00016 - Pop
 	- [x] 00020 - Promise all
 	- [x] 00062 - Type lookup
-	- [ ] 00106 - Trim left
+	- [x] 00106 - Trim left
 	- [ ] 00108 - Trim
 	- [ ] 00110 - Capitalize
 	- [ ] 00116 - Replace
