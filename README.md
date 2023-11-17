@@ -28,7 +28,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00015 - Last of array
 	- [x] 00016 - Pop
 	- [x] 00020 - Promise all
-	- [ ] 00062 - Type lookup
+	- [x] 00062 - Type lookup
 	- [ ] 00106 - Trim left
 	- [ ] 00108 - Trim
 	- [ ] 00110 - Capitalize
