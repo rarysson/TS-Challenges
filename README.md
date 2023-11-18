@@ -36,7 +36,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00119 - Replaceall
 	- [x] 00191 - Append argument
 	- [x] 00296 - Permutation
-	- [ ] 00298 - Length of string
+	- [x] 00298 - Length of string
 	- [ ] 00459 - Flatten
 	- [ ] 00527 - Append to object
 	- [ ] 00529 - Absolute
