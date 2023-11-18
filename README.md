@@ -33,7 +33,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00108 - Trim
 	- [x] 00110 - Capitalize
 	- [x] 00116 - Replace
-	- [ ] 00119 - Replaceall
+	- [x] 00119 - Replaceall
 	- [ ] 00191 - Append argument
 	- [ ] 00296 - Permutation
 	- [ ] 00298 - Length of string
