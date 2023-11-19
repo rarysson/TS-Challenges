@@ -64,7 +64,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 03188 - Tuple to nested object
 	- [x] 03192 - Reverse
 	- [x] 03196 - Flip arguments
-	- [ ] 03243 - Flattendepth
+	- [x] 03243 - Flattendepth
 	- [ ] 03326 - Bem style string
 	- [ ] 04179 - Flip
 	- [ ] 04182 - Fibonacci sequence
