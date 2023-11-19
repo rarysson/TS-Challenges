@@ -65,7 +65,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 03192 - Reverse
 	- [x] 03196 - Flip arguments
 	- [x] 03243 - Flattendepth
-	- [ ] 03326 - Bem style string
+	- [x] 03326 - Bem style string
 	- [ ] 04179 - Flip
 	- [ ] 04182 - Fibonacci sequence
 	- [ ] 04260 - Allcombinations
