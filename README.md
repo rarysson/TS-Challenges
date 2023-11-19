@@ -51,7 +51,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 01367 - Remove index signature
 	- [x] 01978 - Percentage parser
 	- [x] 02070 - Drop char
-	- [ ] 02257 - Minusone
+	- [x] 02257 - Minusone
 	- [ ] 02595 - Pickbytype
 	- [ ] 02688 - Startswith
 	- [ ] 02693 - Endswith
