@@ -40,7 +40,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00459 - Flatten
 	- [x] 00527 - Append to object
 	- [x] 00529 - Absolute
-	- [ ] 00531 - String to union
+	- [x] 00531 - String to union
 	- [ ] 00599 - Merge
 	- [ ] 00612 - Kebabcase
 	- [ ] 00645 - Diff
