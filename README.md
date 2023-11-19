@@ -61,7 +61,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 02852 - Omitbytype
 	- [x] 02946 - Objectentries
 	- [x] 03062 - Shift
-	- [ ] 03188 - Tuple to nested object
+	- [x] 03188 - Tuple to nested object
 	- [ ] 03192 - Reverse
 	- [ ] 03196 - Flip arguments
 	- [ ] 03243 - Flattendepth
