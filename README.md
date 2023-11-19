@@ -47,7 +47,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00949 - Anyof
 	- [x] 01042 - Isnever
 	- [x] 01097 - Isunion
-	- [ ] 01130 - Replacekeys
+	- [x] 01130 - Replacekeys
 	- [ ] 01367 - Remove index signature
 	- [ ] 01978 - Percentage parser
 	- [ ] 02070 - Drop char
