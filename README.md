@@ -45,7 +45,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00612 - Kebabcase
 	- [x] 00645 - Diff
 	- [x] 00949 - Anyof
-	- [ ] 01042 - Isnever
+	- [x] 01042 - Isnever
 	- [ ] 01097 - Isunion
 	- [ ] 01130 - Replacekeys
 	- [ ] 01367 - Remove index signature
