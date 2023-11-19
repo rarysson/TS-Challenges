@@ -37,7 +37,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00191 - Append argument
 	- [x] 00296 - Permutation
 	- [x] 00298 - Length of string
-	- [ ] 00459 - Flatten
+	- [x] 00459 - Flatten
 	- [ ] 00527 - Append to object
 	- [ ] 00529 - Absolute
 	- [ ] 00531 - String to union
