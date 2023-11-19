@@ -44,7 +44,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00599 - Merge
 	- [x] 00612 - Kebabcase
 	- [x] 00645 - Diff
-	- [ ] 00949 - Anyof
+	- [x] 00949 - Anyof
 	- [ ] 01042 - Isnever
 	- [ ] 01097 - Isunion
 	- [ ] 01130 - Replacekeys
