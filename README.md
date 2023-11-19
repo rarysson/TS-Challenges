@@ -39,7 +39,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00298 - Length of string
 	- [x] 00459 - Flatten
 	- [x] 00527 - Append to object
-	- [ ] 00529 - Absolute
+	- [x] 00529 - Absolute
 	- [ ] 00531 - String to union
 	- [ ] 00599 - Merge
 	- [ ] 00612 - Kebabcase
