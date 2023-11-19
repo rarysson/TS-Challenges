@@ -27,27 +27,45 @@
 
 /* _____________ Your Code Here _____________ */
 
-type Merge<F, S> = any
+type GetObject<T> = {
+	[P in keyof T]: T[P];
+};
+
+type OverrideProperty<T, U extends Record<any, any>> = {
+	[P in keyof T]: T[P] extends never ? U[P] : T[P];
+};
+
+type Merge<F, S extends Record<any, any>> = OverrideProperty<
+	GetObject<F & S>,
+	S
+>;
+
+type t = Merge<Foo, Bar>;
 
 /* _____________ Test Cases _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type Foo = {
-  a: number
-  b: string
-}
+	a: number;
+	b: string;
+};
 type Bar = {
-  b: number
-  c: boolean
-}
+	b: number;
+	c: boolean;
+};
 
 type cases = [
-  Expect<Equal<Merge<Foo, Bar>, {
-    a: number
-    b: number
-    c: boolean
-  }>>,
-]
+	Expect<
+		Equal<
+			Merge<Foo, Bar>,
+			{
+				a: number;
+				b: number;
+				c: boolean;
+			}
+		>
+	>
+];
 
 /* _____________ Further Steps _____________ */
 /*
