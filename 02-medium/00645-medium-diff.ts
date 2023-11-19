@@ -12,31 +12,41 @@
 
 /* _____________ Your Code Here _____________ */
 
-type Diff<O, O1> = any
+type Object = Record<any, any>;
+
+type RemoveEquals<U, A extends Object, B extends Object> = {
+	[P in keyof U as unknown extends A[P]
+		? P
+		: unknown extends B[P]
+		  ? P
+		  : never]: U[P];
+};
+
+type Diff<O extends Object, O1 extends Object> = RemoveEquals<O & O1, O, O1>;
 
 /* _____________ Test Cases _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type Foo = {
-  name: string
-  age: string
-}
+	name: string;
+	age: string;
+};
 type Bar = {
-  name: string
-  age: string
-  gender: number
-}
+	name: string;
+	age: string;
+	gender: number;
+};
 type Coo = {
-  name: string
-  gender: number
-}
+	name: string;
+	gender: number;
+};
 
 type cases = [
-  Expect<Equal<Diff<Foo, Bar>, { gender: number }>>,
-  Expect<Equal<Diff<Bar, Foo>, { gender: number }>>,
-  Expect<Equal<Diff<Foo, Coo>, { age: string; gender: number }>>,
-  Expect<Equal<Diff<Coo, Foo>, { age: string; gender: number }>>,
-]
+	Expect<Equal<Diff<Foo, Bar>, { gender: number }>>,
+	Expect<Equal<Diff<Bar, Foo>, { gender: number }>>,
+	Expect<Equal<Diff<Foo, Coo>, { age: string; gender: number }>>,
+	Expect<Equal<Diff<Coo, Foo>, { age: string; gender: number }>>
+];
 
 /* _____________ Further Steps _____________ */
 /*

@@ -43,7 +43,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00531 - String to union
 	- [x] 00599 - Merge
 	- [x] 00612 - Kebabcase
-	- [ ] 00645 - Diff
+	- [x] 00645 - Diff
 	- [ ] 00949 - Anyof
 	- [ ] 01042 - Isnever
 	- [ ] 01097 - Isunion
