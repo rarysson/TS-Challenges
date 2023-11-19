@@ -48,7 +48,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 01042 - Isnever
 	- [x] 01097 - Isunion
 	- [x] 01130 - Replacekeys
-	- [ ] 01367 - Remove index signature
+	- [x] 01367 - Remove index signature
 	- [ ] 01978 - Percentage parser
 	- [ ] 02070 - Drop char
 	- [ ] 02257 - Minusone
