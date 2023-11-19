@@ -57,7 +57,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 02693 - Endswith
 	- [x] 02757 - Partialbykeys
 	- [x] 02759 - Requiredbykeys
-	- [ ] 02793 - Mutable
+	- [x] 02793 - Mutable
 	- [ ] 02852 - Omitbytype
 	- [ ] 02946 - Objectentries
 	- [ ] 03062 - Shift
