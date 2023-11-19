@@ -54,7 +54,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 02257 - Minusone
 	- [x] 02595 - Pickbytype
 	- [x] 02688 - Startswith
-	- [ ] 02693 - Endswith
+	- [x] 02693 - Endswith
 	- [ ] 02757 - Partialbykeys
 	- [ ] 02759 - Requiredbykeys
 	- [ ] 02793 - Mutable
