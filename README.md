@@ -71,7 +71,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 04260 - Allcombinations
 	- [x] 04425 - Greater than
 	- [x] 04471 - Zip
-	- [ ] 04484 - Istuple
+	- [x] 04484 - Istuple
 	- [ ] 04499 - Chunk
 	- [ ] 04518 - Fill
 	- [ ] 04803 - Trim right
