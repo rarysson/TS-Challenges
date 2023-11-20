@@ -68,7 +68,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 03326 - Bem style string
 	- [x] 04179 - Flip
 	- [x] 04182 - Fibonacci sequence
-	- [ ] 04260 - Allcombinations
+	- [x] 04260 - Allcombinations
 	- [ ] 04425 - Greater than
 	- [ ] 04471 - Zip
 	- [ ] 04484 - Istuple
