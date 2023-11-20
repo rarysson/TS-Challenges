@@ -70,7 +70,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 04182 - Fibonacci sequence
 	- [x] 04260 - Allcombinations
 	- [x] 04425 - Greater than
-	- [ ] 04471 - Zip
+	- [x] 04471 - Zip
 	- [ ] 04484 - Istuple
 	- [ ] 04499 - Chunk
 	- [ ] 04518 - Fill
