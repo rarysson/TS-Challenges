@@ -19,29 +19,45 @@
 
 /* _____________ Your Code Here _____________ */
 
+type Enumerate<
+	N extends number,
+	Acc extends number[] = []
+> = Acc["length"] extends N
+	? Acc[number]
+	: Enumerate<N, [...Acc, Acc["length"]]>;
+
+type IntRange<F extends number, T extends number> = Exclude<
+	Enumerate<T>,
+	Enumerate<F>
+>;
+
 type Fill<
-  T extends unknown[],
-  N,
-  Start extends number = 0,
-  End extends number = T['length'],
-> = any
+	T extends unknown[],
+	N,
+	Start extends number = 0,
+	End extends number = T["length"]
+> = T["length"] extends 0
+	? []
+	: {
+			[K in keyof T]: K extends `${IntRange<Start, End>}` ? N : T[K];
+	  };
 
 /* _____________ Test Cases _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<Fill<[], 0>, []>>,
-  Expect<Equal<Fill<[], 0, 0, 3>, []>>,
-  Expect<Equal<Fill<[1, 2, 3], 0, 0, 0>, [1, 2, 3]>>,
-  Expect<Equal<Fill<[1, 2, 3], 0, 2, 2>, [1, 2, 3]>>,
-  Expect<Equal<Fill<[1, 2, 3], 0>, [0, 0, 0]>>,
-  Expect<Equal<Fill<[1, 2, 3], true>, [true, true, true]>>,
-  Expect<Equal<Fill<[1, 2, 3], true, 0, 1>, [true, 2, 3]>>,
-  Expect<Equal<Fill<[1, 2, 3], true, 1, 3>, [1, true, true]>>,
-  Expect<Equal<Fill<[1, 2, 3], true, 10, 0>, [1, 2, 3]>>,
-  Expect<Equal<Fill<[1, 2, 3], true, 10, 20>, [1, 2, 3]>>,
-  Expect<Equal<Fill<[1, 2, 3], true, 0, 10>, [true, true, true]>>,
-]
+	Expect<Equal<Fill<[], 0>, []>>,
+	Expect<Equal<Fill<[], 0, 0, 3>, []>>,
+	Expect<Equal<Fill<[1, 2, 3], 0, 0, 0>, [1, 2, 3]>>,
+	Expect<Equal<Fill<[1, 2, 3], 0, 2, 2>, [1, 2, 3]>>,
+	Expect<Equal<Fill<[1, 2, 3], 0>, [0, 0, 0]>>,
+	Expect<Equal<Fill<[1, 2, 3], true>, [true, true, true]>>,
+	Expect<Equal<Fill<[1, 2, 3], true, 0, 1>, [true, 2, 3]>>,
+	Expect<Equal<Fill<[1, 2, 3], true, 1, 3>, [1, true, true]>>,
+	Expect<Equal<Fill<[1, 2, 3], true, 10, 0>, [1, 2, 3]>>,
+	Expect<Equal<Fill<[1, 2, 3], true, 10, 20>, [1, 2, 3]>>,
+	Expect<Equal<Fill<[1, 2, 3], true, 0, 10>, [true, true, true]>>
+];
 
 /* _____________ Further Steps _____________ */
 /*
