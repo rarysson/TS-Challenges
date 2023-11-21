@@ -80,7 +80,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [ ] 05153 - Indexof
 	- [x] 05310 - Join
 	- [ ] 05317 - Lastindexof
-	- [ ] 05360 - Unique
+	- [x] 05360 - Unique
 	- [ ] 05821 - Maptypes
 	- [ ] 07544 - Construct tuple
 	- [ ] 08640 - Number range
