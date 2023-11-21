@@ -74,7 +74,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 04484 - Istuple
 	- [x] 04499 - Chunk
 	- [x] 04518 - Fill
-	- [ ] 04803 - Trim right
+	- [x] 04803 - Trim right
 	- [ ] 05117 - Without
 	- [ ] 05140 - Trunc
 	- [ ] 05153 - Indexof
