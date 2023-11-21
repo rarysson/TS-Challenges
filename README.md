@@ -78,7 +78,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 05117 - Without
 	- [x] 05140 - Trunc
 	- [ ] 05153 - Indexof
-	- [ ] 05310 - Join
+	- [x] 05310 - Join
 	- [ ] 05317 - Lastindexof
 	- [ ] 05360 - Unique
 	- [ ] 05821 - Maptypes
