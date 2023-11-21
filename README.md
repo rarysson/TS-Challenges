@@ -75,7 +75,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 04499 - Chunk
 	- [x] 04518 - Fill
 	- [x] 04803 - Trim right
-	- [ ] 05117 - Without
+	- [x] 05117 - Without
 	- [ ] 05140 - Trunc
 	- [ ] 05153 - Indexof
 	- [ ] 05310 - Join

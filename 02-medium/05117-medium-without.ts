@@ -18,16 +18,22 @@
 
 /* _____________ Your Code Here _____________ */
 
-type Without<T, U> = any
+type GetTypes<T> = T extends any[] ? T[number] : T;
+
+type Without<T, U> = T extends [infer Head, ...infer Tail]
+	? Head extends GetTypes<U>
+		? Without<Tail, U>
+		: [Head, ...Without<Tail, U>]
+	: T;
 
 /* _____________ Test Cases _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<Without<[1, 2], 1>, [2]>>,
-  Expect<Equal<Without<[1, 2, 4, 1, 5], [1, 2]>, [4, 5]>>,
-  Expect<Equal<Without<[2, 3, 2, 3, 2, 3, 2, 3], [2, 3]>, []>>,
-]
+	Expect<Equal<Without<[1, 2], 1>, [2]>>,
+	Expect<Equal<Without<[1, 2, 4, 1, 5], [1, 2]>, [4, 5]>>,
+	Expect<Equal<Without<[2, 3, 2, 3, 2, 3, 2, 3], [2, 3]>, []>>
+];
 
 /* _____________ Further Steps _____________ */
 /*
