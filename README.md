@@ -87,7 +87,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 08767 - Combination
 	- [x] 08987 - Subsequence
 	- [x] 09142 - Checkrepeatedchars
-	- [ ] 09286 - Firstuniquecharindex
+	- [x] 09286 - Firstuniquecharindex
 	- [ ] 09896 - Getmiddleelement
 	- [ ] 09898 - Appear only once
 	- [ ] 10969 - Integer
