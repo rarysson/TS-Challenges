@@ -79,7 +79,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 05140 - Trunc
 	- [x] 05153 - Indexof
 	- [x] 05310 - Join
-	- [ ] 05317 - Lastindexof
+	- [x] 05317 - Lastindexof
 	- [x] 05360 - Unique
 	- [x] 05821 - Maptypes
 	- [x] 07544 - Construct tuple
