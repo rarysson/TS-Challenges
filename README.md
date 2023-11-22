@@ -18,7 +18,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 03057 - Push
 	- [x] 03060 - Unshift
 	- [x] 03312 - Parameters
-- [ ] Medium
+- [x] Medium
 	- [x] 00002 - Get return type
 	- [x] 00003 - Omit
 	- [x] 00008 - Readonly 2
@@ -97,7 +97,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 18220 - Filter
 	- [x] 21106 - Combination key type
 	- [x] 25170 - Replace first
-	- [ ] 25270 - Transpose
+	- [x] 25270 - Transpose
 - [ ] Hard
 	- [ ] 00006 - Simple vue
 	- [ ] 00017 - Currying 1
