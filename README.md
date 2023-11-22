@@ -84,7 +84,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 05821 - Maptypes
 	- [x] 07544 - Construct tuple
 	- [x] 08640 - Number range
-	- [ ] 08767 - Combination
+	- [x] 08767 - Combination
 	- [ ] 08987 - Subsequence
 	- [ ] 09142 - Checkrepeatedchars
 	- [ ] 09286 - Firstuniquecharindex
