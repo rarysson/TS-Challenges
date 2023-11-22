@@ -93,7 +93,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 10969 - Integer
 	- [x] 16259 - Toprimitive
 	- [x] 17973 - Deepmutable
-	- [ ] 18142 - All
+	- [x] 18142 - All
 	- [ ] 18220 - Filter
 	- [ ] 21106 - Combination key type
 	- [ ] 25170 - Replace first
