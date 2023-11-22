@@ -18,20 +18,33 @@
 
 /* _____________ Your Code Here _____________ */
 
-type IndexOf<T, U> = any
+// type GetIndex<T, U, A extends any[] = []> = {
+// 	[K in keyof T as T[K] extends U ? "index" : never]: K;
+// };
+
+type GetIndexes<T, U, R extends any[] = [], I extends any[] = []> = T extends [
+	infer Head,
+	...infer Tail
+]
+	? Equal<Head, U> extends true
+		? GetIndexes<Tail, U, [...R, I["length"]], [...I, any]>
+		: GetIndexes<Tail, U, R, [...I, any]>
+	: R;
+
+type IndexOf<T, U> = GetIndexes<T, U> extends [infer R, ...any] ? R : -1;
 
 /* _____________ Test Cases _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<IndexOf<[1, 2, 3], 2>, 1>>,
-  Expect<Equal<IndexOf<[2, 6, 3, 8, 4, 1, 7, 3, 9], 3>, 2>>,
-  Expect<Equal<IndexOf<[0, 0, 0], 2>, -1>>,
-  Expect<Equal<IndexOf<[string, 1, number, 'a'], number>, 2>>,
-  Expect<Equal<IndexOf<[string, 1, number, 'a', any], any>, 4>>,
-  Expect<Equal<IndexOf<[string, 'a'], 'a'>, 1>>,
-  Expect<Equal<IndexOf<[any, 1], 1>, 1>>,
-]
+	Expect<Equal<IndexOf<[1, 2, 3], 2>, 1>>,
+	Expect<Equal<IndexOf<[2, 6, 3, 8, 4, 1, 7, 3, 9], 3>, 2>>,
+	Expect<Equal<IndexOf<[0, 0, 0], 2>, -1>>,
+	Expect<Equal<IndexOf<[string, 1, number, "a"], number>, 2>>,
+	Expect<Equal<IndexOf<[string, 1, number, "a", any], any>, 4>>,
+	Expect<Equal<IndexOf<[string, "a"], "a">, 1>>,
+	Expect<Equal<IndexOf<[any, 1], 1>, 1>>
+];
 
 /* _____________ Further Steps _____________ */
 /*

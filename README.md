@@ -77,7 +77,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 04803 - Trim right
 	- [x] 05117 - Without
 	- [x] 05140 - Trunc
-	- [ ] 05153 - Indexof
+	- [x] 05153 - Indexof
 	- [x] 05310 - Join
 	- [ ] 05317 - Lastindexof
 	- [x] 05360 - Unique
