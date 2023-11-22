@@ -88,7 +88,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 08987 - Subsequence
 	- [x] 09142 - Checkrepeatedchars
 	- [x] 09286 - Firstuniquecharindex
-	- [ ] 09896 - Getmiddleelement
+	- [x] 09896 - Getmiddleelement
 	- [ ] 09898 - Appear only once
 	- [ ] 10969 - Integer
 	- [ ] 16259 - Toprimitive
