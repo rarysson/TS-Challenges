@@ -89,7 +89,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 09142 - Checkrepeatedchars
 	- [x] 09286 - Firstuniquecharindex
 	- [x] 09896 - Getmiddleelement
-	- [ ] 09898 - Appear only once
+	- [x] 09898 - Appear only once
 	- [ ] 10969 - Integer
 	- [ ] 16259 - Toprimitive
 	- [ ] 17973 - Deepmutable
