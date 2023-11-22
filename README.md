@@ -90,7 +90,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 09286 - Firstuniquecharindex
 	- [x] 09896 - Getmiddleelement
 	- [x] 09898 - Appear only once
-	- [ ] 10969 - Integer
+	- [x] 10969 - Integer
 	- [ ] 16259 - Toprimitive
 	- [ ] 17973 - Deepmutable
 	- [ ] 18142 - All
