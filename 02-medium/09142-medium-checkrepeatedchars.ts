@@ -19,18 +19,27 @@
 
 /* _____________ Your Code Here _____________ */
 
-type CheckRepeatedChars<T extends string> = any
+type StringToTuple<S extends string> = S extends `${infer Char}${infer Rest}`
+	? [Char, ...StringToTuple<Rest>]
+	: [];
+
+type CheckRepeatedChars<T extends string> =
+	T extends `${infer Head}${infer Tail}`
+		? Head extends StringToTuple<Tail>[number]
+			? true
+			: CheckRepeatedChars<Tail>
+		: false;
 
 /* _____________ Test Cases _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
-import { ExpectFalse, NotEqual } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
+import { ExpectFalse, NotEqual } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<CheckRepeatedChars<'abc'>, false>>,
-  Expect<Equal<CheckRepeatedChars<'abb'>, true>>,
-  Expect<Equal<CheckRepeatedChars<'cbc'>, true>>,
-  Expect<Equal<CheckRepeatedChars<''>, false>>,
-]
+	Expect<Equal<CheckRepeatedChars<"abc">, false>>,
+	Expect<Equal<CheckRepeatedChars<"abb">, true>>,
+	Expect<Equal<CheckRepeatedChars<"cbc">, true>>,
+	Expect<Equal<CheckRepeatedChars<"">, false>>
+];
 
 /* _____________ Further Steps _____________ */
 /*
