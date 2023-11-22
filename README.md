@@ -91,7 +91,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 09896 - Getmiddleelement
 	- [x] 09898 - Appear only once
 	- [x] 10969 - Integer
-	- [ ] 16259 - Toprimitive
+	- [x] 16259 - Toprimitive
 	- [ ] 17973 - Deepmutable
 	- [ ] 18142 - All
 	- [ ] 18220 - Filter
