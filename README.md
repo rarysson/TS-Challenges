@@ -95,7 +95,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 17973 - Deepmutable
 	- [x] 18142 - All
 	- [x] 18220 - Filter
-	- [ ] 21106 - Combination key type
+	- [x] 21106 - Combination key type
 	- [ ] 25170 - Replace first
 	- [ ] 25270 - Transpose
 - [ ] Hard
