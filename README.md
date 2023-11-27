@@ -103,7 +103,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00017 - Currying 1
 	- [x] 00055 - Union to intersection
 	- [x] 00057 - Get required
-	- [ ] 00059 - Get optional
+	- [x] 00059 - Get optional
 	- [ ] 00089 - Required keys
 	- [ ] 00090 - Optional keys
 	- [ ] 00112 - Capitalize words
