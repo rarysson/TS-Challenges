@@ -99,7 +99,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 25170 - Replace first
 	- [x] 25270 - Transpose
 - [ ] Hard
-	- [ ] 00006 - Simple vue
+	- [x] 00006 - Simple vue
 	- [ ] 00017 - Currying 1
 	- [ ] 00055 - Union to intersection
 	- [ ] 00057 - Get required
