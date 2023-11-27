@@ -100,7 +100,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 25270 - Transpose
 - [ ] Hard
 	- [x] 00006 - Simple vue
-	- [ ] 00017 - Currying 1
+	- [x] 00017 - Currying 1
 	- [ ] 00055 - Union to intersection
 	- [ ] 00057 - Get required
 	- [ ] 00059 - Get optional
