@@ -104,7 +104,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00055 - Union to intersection
 	- [x] 00057 - Get required
 	- [x] 00059 - Get optional
-	- [ ] 00089 - Required keys
+	- [x] 00089 - Required keys
 	- [ ] 00090 - Optional keys
 	- [ ] 00112 - Capitalize words
 	- [ ] 00114 - Camelcase

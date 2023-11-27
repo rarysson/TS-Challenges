@@ -19,17 +19,30 @@
 
 /* _____________ Your Code Here _____________ */
 
-type RequiredKeys<T> = any
+type GetRequired<T> = {
+	[P in keyof T as T[P] extends Required<T>[P] ? P : never]: T[P];
+};
+
+type GetKeys<T> = {
+	[K in keyof T]: [K];
+}[keyof T][number];
+
+type RequiredKeys<T> = GetKeys<GetRequired<T>>;
 
 /* _____________ Test Cases _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<RequiredKeys<{ a: number; b?: string }>, 'a'>>,
-  Expect<Equal<RequiredKeys<{ a: undefined; b?: undefined }>, 'a'>>,
-  Expect<Equal<RequiredKeys<{ a: undefined; b?: undefined; c: string; d: null }>, 'a' | 'c' | 'd'>>,
-  Expect<Equal<RequiredKeys<{}>, never>>,
-]
+	Expect<Equal<RequiredKeys<{ a: number; b?: string }>, "a">>,
+	Expect<Equal<RequiredKeys<{ a: undefined; b?: undefined }>, "a">>,
+	Expect<
+		Equal<
+			RequiredKeys<{ a: undefined; b?: undefined; c: string; d: null }>,
+			"a" | "c" | "d"
+		>
+	>,
+	Expect<Equal<RequiredKeys<{}>, never>>
+];
 
 /* _____________ Further Steps _____________ */
 /*
