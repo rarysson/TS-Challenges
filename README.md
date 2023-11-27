@@ -106,7 +106,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00059 - Get optional
 	- [x] 00089 - Required keys
 	- [x] 00090 - Optional keys
-	- [ ] 00112 - Capitalize words
+	- [x] 00112 - Capitalize words
 	- [ ] 00114 - Camelcase
 	- [ ] 00147 - C printf parser
 	- [ ] 00213 - Vue basic props
