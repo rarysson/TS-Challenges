@@ -102,7 +102,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00006 - Simple vue
 	- [x] 00017 - Currying 1
 	- [x] 00055 - Union to intersection
-	- [ ] 00057 - Get required
+	- [x] 00057 - Get required
 	- [ ] 00059 - Get optional
 	- [ ] 00089 - Required keys
 	- [ ] 00090 - Optional keys
