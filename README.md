@@ -136,7 +136,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 07258 - Object key paths
 	- [x] 08804 - Two sum
 	- [x] 09155 - Validdate
-	- [ ] 09160 - Assign
+	- [x] 09160 - Assign
 	- [ ] 09384 - Maximum
 	- [ ] 09775 - Capitalize nest object keys
 	- [ ] 13580 - Replace union
