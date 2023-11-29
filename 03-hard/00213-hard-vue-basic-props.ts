@@ -48,69 +48,111 @@
 
 /* _____________ Your Code Here _____________ */
 
-declare function VueBasicProps(options: any): any
+// Yoinks
+type ConvertInstanceType<T> = T extends new (args: any) => any
+	? T extends typeof String | typeof Boolean | typeof Number
+		? ReturnType<T>
+		: InstanceType<T>
+	: T;
+
+type ConvertArrayPropType<T, U = T> = T extends U
+	? ConvertInstanceType<T>
+	: never;
+
+type GetProps<T> = {
+	[P in keyof T]: {} extends T[P]
+		? any
+		: T[P] extends { type: any }
+		  ? T[P]["type"] extends (infer R)[]
+				? ConvertArrayPropType<R>
+				: ConvertInstanceType<T[P]["type"]>
+		  : ConvertInstanceType<T[P]>;
+};
+
+declare function VueBasicProps<
+	P extends Record<string, unknown>,
+	D extends Record<string, unknown>,
+	C extends Record<string, unknown>,
+	M extends Record<string, unknown>
+>(options: {
+	props: {
+		[K in keyof P]: P[K];
+	};
+	data: (this: GetProps<P>) => D;
+	computed: {
+		[K in keyof C]: (this: D & GetProps<P>, ...args: unknown[]) => C[K];
+	};
+	methods: {
+		[K in keyof M]: (
+			this: GetProps<P> &
+				D &
+				C & { [K in keyof M]: (...args: unknown[]) => M[K] }
+		) => M[K];
+	};
+}): any;
 
 /* _____________ Test Cases _____________ */
-import type { Debug, Equal, Expect, IsAny } from '@type-challenges/utils'
+import type { Debug, Equal, Expect, IsAny } from "@type-challenges/utils";
 
 class ClassA {}
 
 VueBasicProps({
-  props: {
-    propA: {},
-    propB: { type: String },
-    propC: { type: Boolean },
-    propD: { type: ClassA },
-    propE: { type: [String, Number] },
-    propF: RegExp,
-  },
-  data(this) {
-    type PropsType = Debug<typeof this>
-    type cases = [
-      Expect<IsAny<PropsType['propA']>>,
-      Expect<Equal<PropsType['propB'], string>>,
-      Expect<Equal<PropsType['propC'], boolean>>,
-      Expect<Equal<PropsType['propD'], ClassA>>,
-      Expect<Equal<PropsType['propE'], string | number>>,
-      Expect<Equal<PropsType['propF'], RegExp>>,
-    ]
+	props: {
+		propA: {},
+		propB: { type: String },
+		propC: { type: Boolean },
+		propD: { type: ClassA },
+		propE: { type: [String, Number] },
+		propF: RegExp
+	},
+	data(this) {
+		type PropsType = Debug<typeof this>;
+		type a = PropsType["propD"];
+		type cases = [
+			Expect<IsAny<PropsType["propA"]>>,
+			Expect<Equal<PropsType["propB"], string>>,
+			Expect<Equal<PropsType["propC"], boolean>>,
+			Expect<Equal<PropsType["propD"], ClassA>>,
+			Expect<Equal<PropsType["propE"], string | number>>,
+			Expect<Equal<PropsType["propF"], RegExp>>
+		];
 
-    // @ts-expect-error
-    this.firstname
-    // @ts-expect-error
-    this.getRandom()
-    // @ts-expect-error
-    this.data()
+		// @ts-expect-error
+		this.firstname;
+		// @ts-expect-error
+		this.getRandom();
+		// @ts-expect-error
+		this.data();
 
-    return {
-      firstname: 'Type',
-      lastname: 'Challenges',
-      amount: 10,
-    }
-  },
-  computed: {
-    fullname() {
-      return `${this.firstname} ${this.lastname}`
-    },
-  },
-  methods: {
-    getRandom() {
-      return Math.random()
-    },
-    hi() {
-      alert(this.fullname.toLowerCase())
-      alert(this.getRandom())
-    },
-    test() {
-      const fullname = this.fullname
-      const propE = this.propE
-      type cases = [
-        Expect<Equal<typeof fullname, string>>,
-        Expect<Equal<typeof propE, string | number>>,
-      ]
-    },
-  },
-})
+		return {
+			firstname: "Type",
+			lastname: "Challenges",
+			amount: 10
+		};
+	},
+	computed: {
+		fullname() {
+			return `${this.firstname} ${this.lastname}`;
+		}
+	},
+	methods: {
+		getRandom() {
+			return Math.random();
+		},
+		hi() {
+			alert(this.fullname.toLowerCase());
+			alert(this.getRandom());
+		},
+		test() {
+			const fullname = this.fullname;
+			const propE = this.propE;
+			type cases = [
+				Expect<Equal<typeof fullname, string>>,
+				Expect<Equal<typeof propE, string | number>>
+			];
+		}
+	}
+});
 
 /* _____________ Further Steps _____________ */
 /*

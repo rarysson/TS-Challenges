@@ -109,7 +109,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00112 - Capitalize words
 	- [x] 00114 - Camelcase
 	- [x] 00147 - C printf parser
-	- [ ] 00213 - Vue basic props
+	- [x] 00213 - Vue basic props
 	- [ ] 00223 - Isany
 	- [ ] 00270 - Typed get
 	- [ ] 00300 - String to number
