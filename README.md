@@ -121,7 +121,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00730 - Union to tuple
 	- [x] 00847 - String join
 	- [x] 00956 - Deeppick
-	- [ ] 01290 - Pinia
+	- [x] 01290 - Pinia
 	- [ ] 01383 - Camelize
 	- [ ] 02059 - Drop string
 	- [ ] 02822 - Split
