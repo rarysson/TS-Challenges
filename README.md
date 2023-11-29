@@ -151,7 +151,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00216 - Slice
 	- [x] 00274 - Integers comparator
 	- [x] 00462 - Currying 2
-	- [ ] 00476 - Sum
+	- [x] 00476 - Sum
 	- [ ] 00517 - Multiply
 	- [ ] 00697 - Tag
 	- [ ] 00734 - Inclusive range
