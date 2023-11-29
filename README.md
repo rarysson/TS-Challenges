@@ -130,7 +130,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 02949 - Objectfromentries
 	- [x] 03376 - Inordertraversal
 	- [x] 04037 - Ispalindrome
-	- [ ] 05181 - Mutable keys
+	- [x] 05181 - Mutable keys
 	- [ ] 05423 - Intersection
 	- [ ] 06141 - Binary to decimal
 	- [ ] 07258 - Object key paths
