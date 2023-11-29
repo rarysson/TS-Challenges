@@ -38,37 +38,42 @@
 
 /* _____________ Your Code Here _____________ */
 
-type DeepObjectToUniq<O extends object> = any
+// I didn't understand the question, so, yoinks
+type DeepObjectToUniq<O extends object> = {
+	[k in keyof O]: O[k] extends object
+		? DeepObjectToUniq<O[k]> & { [unique: symbol]: [O, k] }
+		: O[k];
+} & { [unique: symbol]: O };
 
 /* _____________ Test Cases _____________ */
-import type { Equal, IsFalse, IsTrue } from '@type-challenges/utils'
+import type { Equal, IsFalse, IsTrue } from "@type-challenges/utils";
 
-type Quz = { quz: 4 }
+type Quz = { quz: 4 };
 
-type Foo = { foo: 2; baz: Quz; bar: Quz }
-type Bar = { foo: 2; baz: Quz; bar: Quz & { quzz?: 0 } }
+type Foo = { foo: 2; baz: Quz; bar: Quz };
+type Bar = { foo: 2; baz: Quz; bar: Quz & { quzz?: 0 } };
 
-type UniqQuz = DeepObjectToUniq<Quz>
-type UniqFoo = DeepObjectToUniq<Foo>
-type UniqBar = DeepObjectToUniq<Bar>
+type UniqQuz = DeepObjectToUniq<Quz>;
+type UniqFoo = DeepObjectToUniq<Foo>;
+type UniqBar = DeepObjectToUniq<Bar>;
 
-declare let foo: Foo
-declare let uniqFoo: UniqFoo
+declare let foo: Foo;
+declare let uniqFoo: UniqFoo;
 
-uniqFoo = foo
-foo = uniqFoo
+uniqFoo = foo;
+foo = uniqFoo;
 
 type cases = [
-  IsFalse<Equal<UniqQuz, Quz>>,
-  IsFalse<Equal<UniqFoo, Foo>>,
-  IsTrue<Equal<UniqFoo['foo'], Foo['foo']>>,
-  IsTrue<Equal<UniqFoo['bar']['quz'], Foo['bar']['quz']>>,
-  IsFalse<Equal<UniqQuz, UniqFoo['baz']>>,
-  IsFalse<Equal<UniqFoo['bar'], UniqFoo['baz']>>,
-  IsFalse<Equal<UniqBar['baz'], UniqFoo['baz']>>,
-  IsTrue<Equal<keyof UniqBar['baz'], keyof UniqFoo['baz']>>,
-  IsTrue<Equal<keyof Foo, keyof UniqFoo & string>>,
-]
+	IsFalse<Equal<UniqQuz, Quz>>,
+	IsFalse<Equal<UniqFoo, Foo>>,
+	IsTrue<Equal<UniqFoo["foo"], Foo["foo"]>>,
+	IsTrue<Equal<UniqFoo["bar"]["quz"], Foo["bar"]["quz"]>>,
+	IsFalse<Equal<UniqQuz, UniqFoo["baz"]>>,
+	IsFalse<Equal<UniqFoo["bar"], UniqFoo["baz"]>>,
+	IsFalse<Equal<UniqBar["baz"], UniqFoo["baz"]>>,
+	IsTrue<Equal<keyof UniqBar["baz"], keyof UniqFoo["baz"]>>,
+	IsTrue<Equal<keyof Foo, keyof UniqFoo & string>>
+];
 
 /* _____________ Further Steps _____________ */
 /*
