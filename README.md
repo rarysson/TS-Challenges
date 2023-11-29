@@ -24,10 +24,10 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00008 - Readonly 2
 	- [x] 00009 - Deep readonly
 	- [x] 00010 - Tuple to union
-	- [x] 00012 - Chainable options
+	- [x] 00012 - Chainable options (:police_car:)
 	- [x] 00015 - Last of array
 	- [x] 00016 - Pop
-	- [x] 00020 - Promise all
+	- [x] 00020 - Promise all (:police_car:)
 	- [x] 00062 - Type lookup
 	- [x] 00106 - Trim left
 	- [x] 00108 - Trim
@@ -37,7 +37,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00191 - Append argument
 	- [x] 00296 - Permutation
 	- [x] 00298 - Length of string
-	- [x] 00459 - Flatten
+	- [x] 00459 - Flatten (:police_car:)
 	- [x] 00527 - Append to object
 	- [x] 00529 - Absolute
 	- [x] 00531 - String to union
@@ -46,12 +46,12 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00645 - Diff
 	- [x] 00949 - Anyof
 	- [x] 01042 - Isnever
-	- [x] 01097 - Isunion
+	- [x] 01097 - Isunion (:police_car:)
 	- [x] 01130 - Replacekeys
-	- [x] 01367 - Remove index signature
+	- [x] 01367 - Remove index signature (:police_car:)
 	- [x] 01978 - Percentage parser
 	- [x] 02070 - Drop char
-	- [x] 02257 - Minusone
+	- [x] 02257 - Minusone (:police_car:)
 	- [x] 02595 - Pickbytype
 	- [x] 02688 - Startswith
 	- [x] 02693 - Endswith
@@ -59,17 +59,17 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 02759 - Requiredbykeys
 	- [x] 02793 - Mutable
 	- [x] 02852 - Omitbytype
-	- [x] 02946 - Objectentries
+	- [x] 02946 - Objectentries (:police_car:)
 	- [x] 03062 - Shift
 	- [x] 03188 - Tuple to nested object
 	- [x] 03192 - Reverse
 	- [x] 03196 - Flip arguments
-	- [x] 03243 - Flattendepth
+	- [x] 03243 - Flattendepth (:police_car:)
 	- [x] 03326 - Bem style string
 	- [x] 04179 - Flip
-	- [x] 04182 - Fibonacci sequence
-	- [x] 04260 - Allcombinations
-	- [x] 04425 - Greater than
+	- [x] 04182 - Fibonacci sequence (:police_car:)
+	- [x] 04260 - Allcombinations (:police_car:)
+	- [x] 04425 - Greater than (:police_car:)
 	- [x] 04471 - Zip
 	- [x] 04484 - Istuple
 	- [x] 04499 - Chunk
@@ -84,79 +84,79 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 05821 - Maptypes
 	- [x] 07544 - Construct tuple
 	- [x] 08640 - Number range
-	- [x] 08767 - Combination
-	- [x] 08987 - Subsequence
+	- [x] 08767 - Combination (:police_car:)
+	- [x] 08987 - Subsequence (:police_car:)
 	- [x] 09142 - Checkrepeatedchars
 	- [x] 09286 - Firstuniquecharindex
 	- [x] 09896 - Getmiddleelement
-	- [x] 09898 - Appear only once
-	- [x] 10969 - Integer
-	- [x] 16259 - Toprimitive
+	- [x] 09898 - Appear only once (:police_car:)
+	- [x] 10969 - Integer (:police_car:)
+	- [x] 16259 - Toprimitive (:police_car:)
 	- [x] 17973 - Deepmutable
 	- [x] 18142 - All
 	- [x] 18220 - Filter
-	- [x] 21106 - Combination key type
+	- [x] 21106 - Combination key type (:police_car:)
 	- [x] 25170 - Replace first
-	- [x] 25270 - Transpose
+	- [x] 25270 - Transpose (:police_car:)
 - [x] Hard
-	- [x] 00006 - Simple vue
-	- [x] 00017 - Currying 1
-	- [x] 00055 - Union to intersection
-	- [x] 00057 - Get required
+	- [x] 00006 - Simple vue (:police_car:)
+	- [x] 00017 - Currying 1 (:police_car:)
+	- [x] 00055 - Union to intersection (:police_car:)
+	- [x] 00057 - Get required (:police_car:)
 	- [x] 00059 - Get optional
 	- [x] 00089 - Required keys
 	- [x] 00090 - Optional keys
 	- [x] 00112 - Capitalize words
-	- [x] 00114 - Camelcase
-	- [x] 00147 - C printf parser
-	- [x] 00213 - Vue basic props
+	- [x] 00114 - Camelcase (:police_car:)
+	- [x] 00147 - C printf parser (:police_car:)
+	- [x] 00213 - Vue basic props (:police_car:)
 	- [x] 00223 - Isany
 	- [x] 00270 - Typed get
 	- [x] 00300 - String to number
 	- [x] 00399 - Tuple filter
-	- [x] 00472 - Tuple to enum object
+	- [x] 00472 - Tuple to enum object (:police_car:)
 	- [x] 00545 - Printf
-	- [x] 00553 - Deep object to unique
+	- [x] 00553 - Deep object to unique (:police_car:)
 	- [x] 00651 - Length of string 2
-	- [x] 00730 - Union to tuple
-	- [x] 00847 - String join
-	- [x] 00956 - Deeppick
-	- [x] 01290 - Pinia
-	- [x] 01383 - Camelize
-	- [x] 02059 - Drop string
-	- [x] 02822 - Split
+	- [x] 00730 - Union to tuple (:police_car:)
+	- [x] 00847 - String join (:police_car:)
+	- [x] 00956 - Deeppick (:police_car:)
+	- [x] 01290 - Pinia (:police_car:)
+	- [x] 01383 - Camelize (:police_car:)
+	- [x] 02059 - Drop string (:police_car:)
+	- [x] 02822 - Split (:police_car:)
 	- [x] 02828 - Classpublickeys
-	- [x] 02857 - Isrequiredkey
-	- [x] 02949 - Objectfromentries
-	- [x] 03376 - Inordertraversal
-	- [x] 04037 - Ispalindrome
-	- [x] 05181 - Mutable keys
-	- [x] 05423 - Intersection
-	- [x] 06141 - Binary to decimal
-	- [x] 07258 - Object key paths
-	- [x] 08804 - Two sum
-	- [x] 09155 - Validdate
-	- [x] 09160 - Assign
-	- [x] 09384 - Maximum
-	- [x] 09775 - Capitalize nest object keys
-	- [x] 13580 - Replace union
-	- [x] 14080 - Fizzbuzz
-	- [x] 14188 - Run length encoding
-	- [x] 15260 - Tree path array
-	- [x] 19458 - Snakecase
-	- [x] 25747 - Isnegativenumber
+	- [x] 02857 - Isrequiredkey (:police_car:)
+	- [x] 02949 - Objectfromentries (:police_car:)
+	- [x] 03376 - Inordertraversal (:police_car:)
+	- [x] 04037 - Ispalindrome (:police_car:)
+	- [x] 05181 - Mutable keys (:police_car:)
+	- [x] 05423 - Intersection (:police_car:)
+	- [x] 06141 - Binary to decimal (:police_car:)
+	- [x] 07258 - Object key paths (:police_car:)
+	- [x] 08804 - Two sum (:police_car:)
+	- [x] 09155 - Validdate (:police_car:)
+	- [x] 09160 - Assign (:police_car:)
+	- [x] 09384 - Maximum (:police_car:)
+	- [x] 09775 - Capitalize nest object keys (:police_car:)
+	- [x] 13580 - Replace union (:police_car:)
+	- [x] 14080 - Fizzbuzz (:police_car:)
+	- [x] 14188 - Run length encoding (:police_car:)
+	- [x] 15260 - Tree path array (:police_car:)
+	- [x] 19458 - Snakecase (:police_car:)
+	- [x] 25747 - Isnegativenumber (:police_car:)
 - [x] Extreme
 	- [x] 00005 - Get readonly keys
-	- [x] 00151 - Query string parser
-	- [x] 00216 - Slice
-	- [x] 00274 - Integers comparator
-	- [x] 00462 - Currying 2
-	- [x] 00476 - Sum
-	- [x] 00517 - Multiply
-	- [x] 00697 - Tag
-	- [x] 00734 - Inclusive range
-	- [x] 00741 - Sort
-	- [x] 00869 - Distributeunions
-	- [x] 00925 - Assert array index
-	- [x] 06228 - Json parser
-	- [x] 07561 - Subtract
+	- [x] 00151 - Query string parser (:police_car:)
+	- [x] 00216 - Slice (:police_car:)
+	- [x] 00274 - Integers comparator (:police_car:)
+	- [x] 00462 - Currying 2 (:police_car:)
+	- [x] 00476 - Sum (:police_car:)
+	- [x] 00517 - Multiply (:police_car:)
+	- [x] 00697 - Tag (:police_car:)
+	- [x] 00734 - Inclusive range (:police_car:)
+	- [x] 00741 - Sort (:police_car:)
+	- [x] 00869 - Distributeunions (:police_car:)
+	- [x] 00925 - Assert array index (:police_car:)
+	- [x] 06228 - Json parser (:police_car:)
+	- [x] 07561 - Subtract (:police_car:)
