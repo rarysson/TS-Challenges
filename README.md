@@ -143,7 +143,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 14080 - Fizzbuzz
 	- [x] 14188 - Run length encoding
 	- [x] 15260 - Tree path array
-	- [ ] 19458 - Snakecase
+	- [x] 19458 - Snakecase
 	- [ ] 25747 - Isnegativenumber
 - [ ] Extreme
 	- [ ] 00005 - Get readonly keys
