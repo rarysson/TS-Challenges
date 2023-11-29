@@ -138,7 +138,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 09155 - Validdate
 	- [x] 09160 - Assign
 	- [x] 09384 - Maximum
-	- [ ] 09775 - Capitalize nest object keys
+	- [x] 09775 - Capitalize nest object keys
 	- [ ] 13580 - Replace union
 	- [ ] 14080 - Fizzbuzz
 	- [ ] 14188 - Run length encoding
