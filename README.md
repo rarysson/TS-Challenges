@@ -148,7 +148,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 - [ ] Extreme
 	- [x] 00005 - Get readonly keys
 	- [x] 00151 - Query string parser
-	- [ ] 00216 - Slice
+	- [x] 00216 - Slice
 	- [ ] 00274 - Integers comparator
 	- [ ] 00462 - Currying 2
 	- [ ] 00476 - Sum
