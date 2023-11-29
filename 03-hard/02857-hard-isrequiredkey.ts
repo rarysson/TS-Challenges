@@ -20,16 +20,22 @@
 
 /* _____________ Your Code Here _____________ */
 
-type IsRequiredKey<T, K extends keyof T> = any
+// Yoinks
+type IsRequiredKey<Type, Keys extends keyof Type> = Pick<
+	Type,
+	Keys
+> extends Required<Pick<Type, Keys>>
+	? true
+	: false;
 
 /* _____________ Test Cases _____________ */
-import type { Equal, Expect } from '@type-challenges/utils'
+import type { Equal, Expect } from "@type-challenges/utils";
 
 type cases = [
-  Expect<Equal<IsRequiredKey<{ a: number; b?: string }, 'a'>, true>>,
-  Expect<Equal<IsRequiredKey<{ a: number; b?: string }, 'b'>, false>>,
-  Expect<Equal<IsRequiredKey<{ a: number; b?: string }, 'b' | 'a'>, false>>,
-]
+	Expect<Equal<IsRequiredKey<{ a: number; b?: string }, "a">, true>>,
+	Expect<Equal<IsRequiredKey<{ a: number; b?: string }, "b">, false>>,
+	Expect<Equal<IsRequiredKey<{ a: number; b?: string }, "b" | "a">, false>>
+];
 
 /* _____________ Further Steps _____________ */
 /*
