@@ -145,7 +145,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 15260 - Tree path array
 	- [x] 19458 - Snakecase
 	- [x] 25747 - Isnegativenumber
-- [ ] Extreme
+- [x] Extreme
 	- [x] 00005 - Get readonly keys
 	- [x] 00151 - Query string parser
 	- [x] 00216 - Slice
@@ -159,4 +159,4 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00869 - Distributeunions
 	- [x] 00925 - Assert array index
 	- [x] 06228 - Json parser
-	- [ ] 07561 - Subtract
+	- [x] 07561 - Subtract
