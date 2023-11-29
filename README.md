@@ -114,7 +114,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00270 - Typed get
 	- [x] 00300 - String to number
 	- [x] 00399 - Tuple filter
-	- [ ] 00472 - Tuple to enum object
+	- [x] 00472 - Tuple to enum object
 	- [ ] 00545 - Printf
 	- [ ] 00553 - Deep object to unique
 	- [ ] 00651 - Length of string 2
