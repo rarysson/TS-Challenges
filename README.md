@@ -146,7 +146,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 19458 - Snakecase
 	- [x] 25747 - Isnegativenumber
 - [ ] Extreme
-	- [ ] 00005 - Get readonly keys
+	- [x] 00005 - Get readonly keys
 	- [ ] 00151 - Query string parser
 	- [ ] 00216 - Slice
 	- [ ] 00274 - Integers comparator
