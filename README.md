@@ -117,7 +117,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00472 - Tuple to enum object
 	- [x] 00545 - Printf
 	- [x] 00553 - Deep object to unique
-	- [ ] 00651 - Length of string 2
+	- [x] 00651 - Length of string 2
 	- [ ] 00730 - Union to tuple
 	- [ ] 00847 - String join
 	- [ ] 00956 - Deeppick
