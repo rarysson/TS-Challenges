@@ -154,7 +154,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00476 - Sum
 	- [x] 00517 - Multiply
 	- [x] 00697 - Tag
-	- [ ] 00734 - Inclusive range
+	- [x] 00734 - Inclusive range
 	- [ ] 00741 - Sort
 	- [ ] 00869 - Distributeunions
 	- [ ] 00925 - Assert array index
