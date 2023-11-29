@@ -128,7 +128,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 02828 - Classpublickeys
 	- [x] 02857 - Isrequiredkey
 	- [x] 02949 - Objectfromentries
-	- [ ] 03376 - Inordertraversal
+	- [x] 03376 - Inordertraversal
 	- [ ] 04037 - Ispalindrome
 	- [ ] 05181 - Mutable keys
 	- [ ] 05423 - Intersection
