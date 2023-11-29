@@ -140,7 +140,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 09384 - Maximum
 	- [x] 09775 - Capitalize nest object keys
 	- [x] 13580 - Replace union
-	- [ ] 14080 - Fizzbuzz
+	- [x] 14080 - Fizzbuzz
 	- [ ] 14188 - Run length encoding
 	- [ ] 15260 - Tree path array
 	- [ ] 19458 - Snakecase
