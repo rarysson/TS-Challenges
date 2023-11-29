@@ -131,7 +131,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 03376 - Inordertraversal
 	- [x] 04037 - Ispalindrome
 	- [x] 05181 - Mutable keys
-	- [ ] 05423 - Intersection
+	- [x] 05423 - Intersection
 	- [ ] 06141 - Binary to decimal
 	- [ ] 07258 - Object key paths
 	- [ ] 08804 - Two sum
