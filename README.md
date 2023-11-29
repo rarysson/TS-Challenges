@@ -152,7 +152,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00274 - Integers comparator
 	- [x] 00462 - Currying 2
 	- [x] 00476 - Sum
-	- [ ] 00517 - Multiply
+	- [x] 00517 - Multiply
 	- [ ] 00697 - Tag
 	- [ ] 00734 - Inclusive range
 	- [ ] 00741 - Sort
