@@ -156,7 +156,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00697 - Tag
 	- [x] 00734 - Inclusive range
 	- [x] 00741 - Sort
-	- [ ] 00869 - Distributeunions
+	- [x] 00869 - Distributeunions
 	- [ ] 00925 - Assert array index
 	- [ ] 06228 - Json parser
 	- [ ] 07561 - Subtract
