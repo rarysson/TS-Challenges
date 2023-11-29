@@ -124,7 +124,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 01290 - Pinia
 	- [x] 01383 - Camelize
 	- [x] 02059 - Drop string
-	- [ ] 02822 - Split
+	- [x] 02822 - Split
 	- [ ] 02828 - Classpublickeys
 	- [ ] 02857 - Isrequiredkey
 	- [ ] 02949 - Objectfromentries
