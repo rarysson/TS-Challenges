@@ -137,7 +137,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 08804 - Two sum
 	- [x] 09155 - Validdate
 	- [x] 09160 - Assign
-	- [ ] 09384 - Maximum
+	- [x] 09384 - Maximum
 	- [ ] 09775 - Capitalize nest object keys
 	- [ ] 13580 - Replace union
 	- [ ] 14080 - Fizzbuzz
