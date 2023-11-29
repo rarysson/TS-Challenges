@@ -120,7 +120,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00651 - Length of string 2
 	- [x] 00730 - Union to tuple
 	- [x] 00847 - String join
-	- [ ] 00956 - Deeppick
+	- [x] 00956 - Deeppick
 	- [ ] 01290 - Pinia
 	- [ ] 01383 - Camelize
 	- [ ] 02059 - Drop string
