@@ -123,7 +123,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00956 - Deeppick
 	- [x] 01290 - Pinia
 	- [x] 01383 - Camelize
-	- [ ] 02059 - Drop string
+	- [x] 02059 - Drop string
 	- [ ] 02822 - Split
 	- [ ] 02828 - Classpublickeys
 	- [ ] 02857 - Isrequiredkey
