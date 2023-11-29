@@ -112,7 +112,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00213 - Vue basic props
 	- [x] 00223 - Isany
 	- [x] 00270 - Typed get
-	- [ ] 00300 - String to number
+	- [x] 00300 - String to number
 	- [ ] 00399 - Tuple filter
 	- [ ] 00472 - Tuple to enum object
 	- [ ] 00545 - Printf
