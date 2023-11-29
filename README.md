@@ -98,7 +98,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 21106 - Combination key type
 	- [x] 25170 - Replace first
 	- [x] 25270 - Transpose
-- [ ] Hard
+- [x] Hard
 	- [x] 00006 - Simple vue
 	- [x] 00017 - Currying 1
 	- [x] 00055 - Union to intersection
@@ -144,7 +144,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 14188 - Run length encoding
 	- [x] 15260 - Tree path array
 	- [x] 19458 - Snakecase
-	- [ ] 25747 - Isnegativenumber
+	- [x] 25747 - Isnegativenumber
 - [ ] Extreme
 	- [ ] 00005 - Get readonly keys
 	- [ ] 00151 - Query string parser
