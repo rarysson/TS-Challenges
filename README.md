@@ -150,7 +150,7 @@ Solutions to the [type challenges](https://github.com/type-challenges/type-chall
 	- [x] 00151 - Query string parser
 	- [x] 00216 - Slice
 	- [x] 00274 - Integers comparator
-	- [ ] 00462 - Currying 2
+	- [x] 00462 - Currying 2
 	- [ ] 00476 - Sum
 	- [ ] 00517 - Multiply
 	- [ ] 00697 - Tag
